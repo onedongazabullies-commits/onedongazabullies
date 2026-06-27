@@ -1,10 +1,37 @@
 const galleries = {
-  black_rhyno: ["assets/studs/black_rhyno1.png","assets/studs/black_rhyno2.png"],
-  diplomat: ["assets/studs/diplomat.png"],
-  mystic: ["assets/females/mystic_01.png"],
-  celine: ["assets/females/celine_01.png","assets/females/celine_02.png"],
-  productions: ["assets/productions/productions_01.png","assets/productions/productions_02.jpeg"],
-  gallery: ["assets/gallery/gallery_01.png","assets/gallery/gallery_02.png"]
+
+    black_rhyno:[
+        "assets/studs/black_rhyno1.png",
+        "assets/studs/black_rhyno2.png"
+    ],
+
+    diplomat:[
+        "assets/productions/diplomat.png"
+    ],
+
+    wizard:[
+        "assets/productions/wizard.png"
+    ],
+
+    spice:[
+        "assets/productions/spice.png"
+    ],
+
+    mystic:[
+        "assets/females/mystic_01.png"
+    ],
+
+    celine:[
+        "assets/females/celine_01.png",
+        "assets/females/celine_02.png"
+    ],
+
+    gallery:[
+        "assets/gallery/gallery_01.png",
+        "assets/gallery/gallery_02.png"
+    ]
+
+};
 };
 let currentGallery = [];
 let currentIndex = 0;
